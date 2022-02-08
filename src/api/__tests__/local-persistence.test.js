@@ -1,10 +1,9 @@
-import { describe, expect, test } from 'vitest';
 import {
   createTodo,
   deleteTodo,
   getAll,
   updateTodo,
-} from './local-persistence';
+} from '../local-persistence';
 
 describe('Local persistence API', () => {
   test('returns initially zero todos', async () => {
