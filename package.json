@@ -2,13 +2,18 @@
   "name": "sample-todos",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "todomvc-app-css": "^2.4.1",
     "vue": "^3.2.30"
   },
   "devDependencies": {
-    "@vue/cli-service": "^4.5.15"
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^8.4.1"
   }
 }

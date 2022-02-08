@@ -2,18 +2,11 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2021: true,
+    es2020: true,
   },
-  extends: ['eslint:recommended', 'plugin:cypress/recommended', 'prettier'],
+  extends: ['plugin:vue/vue3-essential', 'eslint:recommended', '@vue/prettier'],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
-  rules: {},
-  overrides: [
-    {
-      files: ['cypress/integration/**.spec.{js,ts,jsx,tsx}'],
-      extends: ['plugin:cypress/recommended'],
-    },
-  ],
 };
