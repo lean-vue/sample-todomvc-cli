@@ -1,7 +1,7 @@
-import { createApp } from 'vue';
+//import { createApp } from 'vue';
 
 // Global styles
 import './assets/styles.css';
 
-const app = createApp();
+//const app = createApp();
 // app.mount('.todoapp');
