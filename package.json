@@ -5,7 +5,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "todomvc-app-css": "^2.4.1"
+    "todomvc-app-css": "^2.4.1",
+    "vue": "^3.2.30"
   },
   "devDependencies": {
     "@vue/cli-service": "^4.5.15"
